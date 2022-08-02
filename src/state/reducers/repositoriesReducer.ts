@@ -5,7 +5,7 @@ import {Action} from '../actions'
 
 interface RepoState {
     loading:boolean;
-    error: string| null;
+    error: string | null;
     data: string[];
 }
 
