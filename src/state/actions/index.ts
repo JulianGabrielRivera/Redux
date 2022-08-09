@@ -12,5 +12,5 @@ interface SearchRepoErrorAction{
     payload: string;
 }
 // all diff possible actions that can be used by our diff reducers
-export type Action =SearchRepoAction | SearchRepoSuccessAction | SearchRepoErrorAction
+export type Action = | SearchRepoAction | SearchRepoSuccessAction | SearchRepoErrorAction
 
